@@ -1,4 +1,4 @@
-// app/api/contacts/[id]/route.js
+// app//contact/[id]/route.js
 
 let contacts = [
     { id: 1, name: 'John Doe', phone: '123-456-7890' },

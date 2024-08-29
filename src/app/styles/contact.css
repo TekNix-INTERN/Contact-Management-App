@@ -1,0 +1,90 @@
+/* contact.css */
+
+.container {
+    max-width: 4xl;
+    margin: 0 auto;
+    padding: 1.5rem;
+  }
+  
+  .header {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    color: #2d3748;
+  }
+  
+  .form {
+    margin-bottom: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Căn giữa các phần tử */
+  }
+  
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+    max-width: 400px; /* Giới hạn chiều rộng của form */
+    margin-bottom: 1rem;
+  }
+  
+  .input {
+    padding: 0.75rem;
+    border: 1px solid #e2e8f0;
+    border-radius: 0.375rem;
+    width: 100%;
+    box-sizing: border-box; /* Đảm bảo padding không làm tăng chiều rộng tổng cộng */
+  }
+  
+  .submit-button {
+    padding: 0.75rem;
+    background-color: #3182ce;
+    color: white;
+    border-radius: 0.375rem;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    width: 100%;
+    max-width: 200px; /* Đặt chiều rộng tối đa của nút */
+    text-align: center; /* Căn giữa chữ trong nút */
+  }
+  
+  .submit-button:hover {
+    background-color: #2b6cb0;
+  }
+  
+  .table-container {
+    display: flex;
+    justify-content: center; /* Căn giữa bảng */
+    margin-top: 1.5rem;
+  }
+  
+  .table {
+    width: 100%;
+    max-width: 600px; /* Giới hạn chiều rộng tối đa của bảng */
+    border-collapse: collapse;
+    background-color: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 0.375rem;
+  }
+  
+  .table thead {
+    background-color: #edf2f7;
+  }
+  
+  .table th, .table td {
+    padding: 0.75rem 1.25rem;
+    border: 1px solid #e2e8f0;
+    text-align: left;
+  }
+  
+  .table th {
+    font-weight: bold;
+    color: #4a5568;
+  }
+  
+  .table tr:hover {
+    background-color: #f7fafc;
+  }
+  
